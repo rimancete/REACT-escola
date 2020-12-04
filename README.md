@@ -16,7 +16,7 @@ Notas:
 -  Para fotos, customizado input file para que, no padrão, o usuário veja somentes imagens ao localizar arquivos. Caso ocorra problema com o envio da imagem, é exibido erro e retornado a página de edição do aluno
 
 CORREÇÃO FUTURA:
-Warnings nas rotas /alunos, /aluno e /register
+Warnings, em ambiente dev, nas rotas /alunos, /aluno e /register
 1 - prop 'to' de Link é requerido mas está undefined
 2 - link dentro de link
 
