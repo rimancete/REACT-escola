@@ -54,6 +54,7 @@ export default function Alunos() {
       novosAlunos.splice(index, 1);
       setAlunos(novosAlunos);
       setIsLoading(false);
+      toast.success('Aluno excluído com sucesso');
     } catch (err) {
       const status = get(err, 'response.status', []);
       if (status === 401) {
